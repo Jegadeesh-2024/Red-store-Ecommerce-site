@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- fontawsome link -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+<body><!-- Header Section -->
+<div class="header  py-3">
+ <nav class="navbar navbar-expand-lg bg-light shadow">
+  <div class="container justify-content-center">
+    <img src="logo.png"width="125px">
+    <!-- Toggle button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#centerNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="centerNavbar">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account.html">Account</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <a href="cart.html" class="me-3">
+          <img src="cart.png" width="30px" height="30px" alt="Cart">
+        </a>
+        
+      </div>
+  
+    </div>
+    </div>
+</nav>
+
+    <!-- Cart & Menu Icon -->
+      
+  </div>
+   
+    <div class="container my-5">
+  <div class="row justify-content-between align-items-center mb-4">
+    <div class="col-md-6">
+      <h2>All Products</h2>
+    </div>
+    <div class="col-md-4 text-md-end">
+      <select class="form-select">
+        <option selected>Default Sorting</option>
+        <option>Sort by Price</option>
+        <option>Sort by Popularity</option>
+        <option>Sort by Rating</option>
+        <option>Sort by Sale</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <!-- Repeat this block for each product -->
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-1.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- Copy and change the image/text for each product -->
+    <!-- Example of reused block with different image -->
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-2.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- 3rd card -->
+     <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-3.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 4th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-4.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 5th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-5.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 6th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-6.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 7th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-7.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 8th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-8.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 9th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-9.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 10th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-10.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 11 th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-11.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+<!-- 12 th card -->
+ <div class="col-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="product-12.jpg" class="card-img-top" alt="Red Printed T-shirt">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Printed T-shirts</h5>
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="card-text">$50.00</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Repeat for products 3 to 12 -->
+    <!-- ... (Continue like above by replacing image src and card info) ... -->
+
+  </div>
+
+  <!-- Pagination -->
+  <div class="d-flex justify-content-center mt-5">
+    <nav>
+      <ul class="pagination">
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">→</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!-- Footer Section -->
+<div class="footer bg-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Footer Column 1 -->
+      <div class="col-md-3 mb-4">
+        <h5>Download Our App</h5>
+        <p>Download App on iOS and Android mobile phones</p>
+        <div class="d-flex gap-2">
+          <img src="app-store.png" class="img-fluid" alt="App Store" style="height: 40px;">
+          <img src="play-store.png" class="img-fluid" alt="Play Store" style="height: 40px;">
+        </div>
+      </div>
+
+      <!-- Footer Column 2 -->
+      <div class="col-md-3 mb-4">
+        <img src="logo-white.png" class="img-fluid mb-2" alt="Logo">
+        <p>Our purpose is sustainability, making our benefits of sports more impactful.</p>
+      </div>
+
+      <!-- Footer Column 3 -->
+      <div class="col-md-3 mb-4">
+        <h5>Useful Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Coupons</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Blog Post</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Return Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Join Affiliation</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Column 4 -->
+      <div class="col-md-3 mb-4">
+        <h5>Follow Us</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Facebook</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Twitter</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Instagram</a></li>
+          <li><a href="#" class="text-white text-decoration-none">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <hr class="border-secondary">
+    <p class="text-center mb-0">&copy; CopyRights 2025</p>
+  </div>
+</div>
+
+
+</body>
+</html>
